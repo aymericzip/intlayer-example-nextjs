@@ -13,6 +13,13 @@
 /.next/
 /out/
 
+# intlayer
+/.intlayer
+/types
+
+# codeSandbox
+/.codesandbox
+
 # production
 /build
 
