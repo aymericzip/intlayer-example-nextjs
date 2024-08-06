@@ -17,9 +17,6 @@
 /.intlayer
 /types
 
-# codeSandbox
-/.codesandbox
-
 # production
 /build
 

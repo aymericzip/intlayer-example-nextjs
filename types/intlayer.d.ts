@@ -1,12 +1,12 @@
 /* eslint-disable */
 import { Locales } from 'intlayer'
-import type { ServerComponentContent as _AIYZOyPBgPL7MWQnjRCn } from '../.intlayer/types/server-component.d.ts';
-import type { ClientComponentContent as _S5Y0R9JDBjRzxk5E9TfG } from '../.intlayer/types/client-component.d.ts';
+import type { ServerComponentContent as _JTtwNuFkrq9Nsh7bwtkZ } from '../.intlayer/types/server-component.d.ts';
+import type { ClientComponentContent as _Zm96kvxdwOPEzKC0mAyz } from '../.intlayer/types/client-component.d.ts';
 
 declare module 'intlayer' {
   interface IntlayerDictionaryTypesConnector {
-    "server-component": _AIYZOyPBgPL7MWQnjRCn;
-    "client-component": _S5Y0R9JDBjRzxk5E9TfG;
+    "server-component": _JTtwNuFkrq9Nsh7bwtkZ;
+    "client-component": _Zm96kvxdwOPEzKC0mAyz;
   }
 
   type ConfigLocales = Locales.ENGLISH | Locales.SPANISH | Locales.FRENCH;
