@@ -3,7 +3,8 @@ import { Inter } from "next/font/google";
 
 const inter = Inter({ subsets: ["latin"] });
 
-const LocaleLayout: NextLayoutIntlayer = ({ children, params: { locale } }) => {
+const LocaleLayout: NextLayoutIntlayer = async ({ children, params }) => {
+  const { locale } = await params;
   return (
     <html lang={locale}>
       <body className={inter.className}>{children}</body>
